@@ -54,16 +54,11 @@ cp .env.example .env`
 
 **2. Konfigurasi Database pada file `.env`**
 
- `DB_CONNECTION=mysql
- 
- DB_HOST=127.0.0.1
- 
- DB_PORT=5432
- 
- DB_DATABASE=CRUD-ukk
- 
- DB_USERNAME=root
- 
+ `DB_CONNECTION=mysql<br>
+ DB_HOST=127.0.0.1<br>
+ DB_PORT=5432<br>
+ DB_DATABASE=CRUD-ukk<br>
+ DB_USERNAME=root<br>
  DB_PASSWORD=`
 
 **3. Migrasi dan Menyambungkan Storage**
