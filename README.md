@@ -46,24 +46,24 @@ Web untuk menyimpan data data lagu untuk Radio
 # Instalasi
  **1. Clone Repo**
  
-`git clone https://github.com/Trisna-Roam/
-composer install
+`git clone https://github.com/Trisna-Roam/ 
+composer install 
 cp .env.example .env`
 
 **2. Konfigurasi Database pada file `.env`**
 
- `DB_CONNECTION=mysql
- DB_HOST=127.0.0.1
- DB_PORT=5432
- DB_DATABASE=CRUD-ukk
- DB_USERNAME=root
+ `DB_CONNECTION=mysql 
+ DB_HOST=127.0.0.1 
+ DB_PORT=5432 
+ DB_DATABASE=CRUD-ukk 
+ DB_USERNAME=root 
  DB_PASSWORD=`
 
 **3. Migrasi dan Menyambungkan Storage**
 
-`php artisan key:generate
-php artisan storage:link
-php artisan migrate --seed`
+`php artisan key:generate 
+php artisan storage:link 
+php artisan migrate --seed` 
 
 **4. Mulai Website**
 
